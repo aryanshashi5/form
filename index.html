@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {
+            color: rgb(22, 22, 21);
+        }
+    </style>
+</head>  
+
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <!-- server location -->
+            <h1 style="color:blue">
+                <h1 class="main_heading" payment form ></h1>
+            <p>Required fileds are followed by *</p>
+            <h2>User info</h2>
+            <p>Name: * <input type="text" name="" id="name" placeholder="Ashish Kumar shaw" required></p>
+
+
+            <p>
+               <fieldset>
+                   <legend> Gender </legend>
+                   Male <input type="radio" name="gender" id="male">Female <input type="radio" name="gender" id="female">
+               </fieldset>
+            </p>
+            <p>
+                Address:
+                 <textarea placeholder="Enter your Address" name="address" id="address" row="45" cols="=" 58></textarea>
+               
+            </p>
+
+
+            <p>Email:
+                 <input type="email" name="email" id="email" placeholder="gmail check kar">
+                </p>
+
+            <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+            <p>Mobile Number: <input type="number" name="mobile number" id="mobile  number"></p>
+            <hr>
+            <h2>Payment Information</h2>
+            <p>Card Type
+                <select name="Card Type" id="Card Type">
+                    <option value="">--select a card type--</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Master Card">Master Card</option>
+                    <option value="Rupay">Rupay</option>
+                </select>
+            <p>Card Number: <input type="number" name="number" id="Card_Number">
+            <p>Expiration date: <input type="Date" name="Exp_Date" id="Exp_Date"></p>
+            <p>CVV <input type="password" name="CVV" id="" placeholder="123"></p>
+           
+
+            </p>
+
+            </p>
+            <p>UPI APP
+                <select name="UPI" id="UPI">
+                    <option value="radio">--select a Card Type--</option>
+                    <option value="paytm">Paytm</option>
+                    <option value="phone">Phone pe</option>
+                    <option value="Google pay">Google pay</option>
+                </select>
+              <p> UPI ID  <input type="text" id="userID" name="userID" placeholder="Enter your ID"></p>
+
+         <p>
+             <input type="submit" value="pay now"></p> 
+
+        </form>
+    </div>
+</body>
+
+</html>
